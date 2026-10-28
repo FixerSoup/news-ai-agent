@@ -133,7 +133,3 @@ Also add your Google account as a **test user** on the OAuth consent screen.
 ├── .gitignore
 └── README.md
 ```
-
-## License
-
-MIT. Add a `LICENSE` file to make this official.
