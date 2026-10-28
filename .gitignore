@@ -1,0 +1,25 @@
+# Secrets and local config
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# n8n local data (contains encrypted credentials and execution history)
+.n8n/
+n8n_data/
+database.sqlite
+database.sqlite-*
+config
+
+# Exported credentials
+credentials*.json
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
